@@ -16,13 +16,12 @@ orgs.newOrg('eclipse-lsp4j') {
     web_commit_signoff_required: false,
   },
   webhooks+: [
-    orgs.newWebhook() {
+    orgs.newOrgWebhook('https://ci.eclipse.org/lsp4j/github-webhook/') {
       content_type: "json",
       events+: [
         "pull_request",
         "push"
       ],
-      url: "https://ci.eclipse.org/lsp4j/github-webhook/",
     },
   ],
   _repositories+:: [
