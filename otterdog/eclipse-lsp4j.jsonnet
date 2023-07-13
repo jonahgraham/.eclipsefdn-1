@@ -27,6 +27,7 @@ orgs.newOrg('eclipse-lsp4j') {
   _repositories+:: [
     orgs.newRepo('lsp4j') {
       allow_update_branch: false,
+      dependabot_security_updates_enabled: true,
       description: "A Java implementation of the language server protocol intended to be consumed by tools and language servers implemented in Java.",
       has_wiki: false,
       homepage: "https://eclipse.org/lsp4j",
