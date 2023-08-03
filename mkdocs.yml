@@ -1,0 +1,20 @@
+site_name: Otterdog configuration @ eclipse-lsp4j
+site_description: Otterdog configuration @ eclipse-lsp4j
+strict: true
+
+site_url: https://eclipse-lsp4j.github.io/.eclipsefdn/
+
+docs_dir: ./docs
+site_dir: ./_site
+
+theme:
+  name: 'material'
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins: []
+nav: []
+watch: []
