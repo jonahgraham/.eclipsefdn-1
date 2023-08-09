@@ -8,7 +8,7 @@ orgs.newOrg('eclipse-lsp4j') {
     description: "",
     members_can_change_repo_visibility: true,
     members_can_delete_repositories: true,
-    name: "Eclipse LSP4J\u2122",
+    name: "Eclipse LSP4J™",
     packages_containers_internal: false,
     packages_containers_public: false,
     readers_can_create_discussions: true,
